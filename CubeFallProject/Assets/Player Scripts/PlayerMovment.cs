@@ -15,11 +15,11 @@ public class PlayerMovment : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        if (Input.GetKey(KeyCode.LeftArrow) && transform.position.x > -10)
+        if (Input.GetKey(KeyCode.A) && transform.position.x > -10)
             transform.position += Vector3.left * speed * Time.deltaTime;
 
 
-        if (Input.GetKey(KeyCode.RightArrow) && transform.position.x < 10)
+        if (Input.GetKey(KeyCode.D) && transform.position.x < 10)
             transform.position -= Vector3.left * speed * Time.deltaTime;
 
     }

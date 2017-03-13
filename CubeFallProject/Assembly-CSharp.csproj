@@ -46,8 +46,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Enemy Scrips\EnemyAcceleration.cs" />
+     <Compile Include="Assets\Enemy Scrips\EnemyMovement.cs" />
+     <Compile Include="Assets\Escential Scripts\HealthScript.cs" />
+     <Compile Include="Assets\Player Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Player Scripts\PlayerMovment.cs" />
-     <Compile Include="Assets\PlayerMovment.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
